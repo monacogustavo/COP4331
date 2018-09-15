@@ -44,3 +44,6 @@ Make project load to blank screen | 1 | 1 | The app builds and loads to a blank 
 https://github.com/monacogustavo/COP4331/tree/master/Augmented%20Hoops%20(1)
 
 ## Tests
+
+## UML Test
+<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://www.lucidchart.com/documents/embeddedchart/d047d936-048f-42f5-b5c6-268b9bbc56b9" id="qlta5Jsn6bpf"></iframe></div>
