@@ -41,9 +41,22 @@ Make project load to blank screen | 1 | 1 | The app builds and loads to a blank 
 
 ## Code
 
-https://github.com/monacogustavo/COP4331/tree/master/Augmented%20Hoops%20(1)
+Build instructions:
+1. Visit Unity3d.com and create Unity account (if you do not already have one)
+  * A Personal account is sufficient (and free)
+2. Download Unity Installer (for windows) from this location: https://github.com/monacogustavo/COP4331/tree/master/Unity%20Installer
+  * If on Mac, download installer from Unity3d.com by clicking "Get Unity" in top right corner
+3. Install Unity
+  * Mandatory install options
+    * iOS Build Support
+    * Vuforia Augmented Reality Support
+4. Download "Augmented Hoops (1)" project folder from https://github.com/monacogustavo/COP4331
+7. Open project in Unity after signing into your Unity Account
+8. Click Play (:arrow_forward:) button at top center of IDE
 
 ## Tests
 
-
+User Story | Test | Status
+--- | --- | ---
+As a gamer, I want the ball to collide with the ground, so that the game feels realistic | /Assets/Test Cases/BallCollisionDetector.cs | PASSED
 
