@@ -52,7 +52,7 @@ Build instructions:
     * Vuforia Augmented Reality Support
 4. Download "Augmented Hoops (1)" project folder from https://github.com/monacogustavo/COP4331
 7. Open project in Unity after signing into your Unity Account
-8. Click Play (:arrow_forward:) button at top center of IDE
+8. Click Play (![alt-text](https://github.com/monacogustavo/COP4331/blob/master/PlayButton.png "Play Button")) button at top center of IDE
 
 ## Tests
 
