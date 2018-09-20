@@ -3,6 +3,10 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Unity files
+Augmented Hoops (1)/Library/metadata/
+Augmented Hoops (1)/Library/ShaderCache/
+
 # User-specific files
 *.suo
 *.user
