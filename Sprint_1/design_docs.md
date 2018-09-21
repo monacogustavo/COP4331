@@ -2,4 +2,4 @@
 
 #### App Usage Workflow
 
-![alt-text](/images/Augmented_Hoops_UML.png "App Usage Diagram")
+![App Usage Diagram](/Sprint_1/images/Augmented_Hoops_UML.png "App Usage Diagram")
