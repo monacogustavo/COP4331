@@ -34,13 +34,13 @@ Make project load to blank screen | 1 | 1 | The app builds and loads to a blank 
 
 ## Burndown Chart
 
-![alt-text](/images/BurndownSprint1.png "Burndown Chart")
+![alt-text](/Sprint_1/images/BurndownSprint1.png "Burndown Chart")
 
 ## Design Documents
 
 #### App Usage Workflow
 
-![alt-text](/images/Augmented_Hoops_UML.png "App Usage Diagram")
+![alt-text](/Sprint_1/images/Augmented_Hoops_UML.png "App Usage Diagram")
 
 ## Code
 
@@ -55,7 +55,7 @@ Build instructions:
     * Vuforia Augmented Reality Support
 4. Download "Augmented Hoops (1)" project folder from https://github.com/monacogustavo/COP4331
 7. Open project in Unity after signing into your Unity Account
-8. Click Play (![alt-text](/images/PlayButton.png "Play Button")) button at top center of IDE
+8. Click Play (![alt-text](/Sprint_1/images/PlayButton.png "Play Button")) button at top center of IDE
 
 ## Tests
 
