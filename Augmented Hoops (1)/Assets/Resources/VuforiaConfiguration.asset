@@ -63,7 +63,7 @@ MonoBehaviour:
     autoInitTracker: 0
     autoStartTracker: 0
   webcam:
-    deviceNameSetInEditor: 
+    deviceNameSetInEditor: Microsoft Camera Rear
     flipHorizontally: 0
     turnOffWebCam: 0
     renderTextureLayer: 30
