@@ -53,9 +53,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Game Scripts\DestroyBall.cs" />
+     <Compile Include="Assets\Game Scripts\SpawnBall.cs" />
+     <Compile Include="Assets\Simple soccer &amp; basketball\Basketball\Scripts\Basketball.cs" />
+     <Compile Include="Assets\Simple soccer &amp; basketball\Basketball\Scripts\Hoop.cs" />
+     <Compile Include="Assets\Simple soccer &amp; basketball\Basketball\Scripts\Shooting.cs" />
+     <Compile Include="Assets\Simple soccer &amp; basketball\General\Scripts\DestroyParticles.cs" />
+     <Compile Include="Assets\Simple soccer &amp; basketball\General\Scripts\DestroyPlayerprefs.cs" />
+     <Compile Include="Assets\Simple soccer &amp; basketball\Soccer\Scripts\Soccer.cs" />
+     <Compile Include="Assets\Simple soccer &amp; basketball\Soccer\Scripts\SoccerBall.cs" />
+     <Compile Include="Assets\Simple soccer &amp; basketball\Soccer\Scripts\Target.cs" />
      <Compile Include="Assets\Test Cases\BallCollisionDetector.cs" />
+     <Compile Include="Assets\Test Cases\BounceCount.cs" />
      <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
      <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
+     <None Include="Assets\StreamingAssets\Vuforia\AR_Stones.xml" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
      <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
