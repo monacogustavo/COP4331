@@ -28,6 +28,7 @@ Make project load to blank screen | 1 | 1 | The app builds and loads to a blank 
 
 User Story / Requirement | Priority | Effort | Validation
 --- | --- | --- | ---
+As a gamer, I want the ball to bounce off the floor, so that the game feels realistic | 2 | 3 | When the ball collides with the ground, the ball bounces
 Aquire 3D Hoop Model | 1 | 1 | A 3D model of a basketball backboard/hoop is in our project
 Aquire Basketball Model | 1 | 1 | A 3D model of a ball is in our project
 As a gamer, I want the ball to collide with the ground, so that the game feels realistic | 1 | 1 | When the ball hits the ground, it doesn't fall through the floor
