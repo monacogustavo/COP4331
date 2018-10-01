@@ -8,15 +8,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2067402452, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
+  m_Script: {fileID: -2067402452, guid: 8a9a760f95896c34689febc965510927, type: 3}
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: AULxO1D/////AAABmToQ//qw+U9ikxDr1kWExnpR+Vemq9iKXBuNy3i5xpMvxCHBI6ug7xpid0OQeoeEmAJQMViRoeOEeNGCFtKzeyT3Padpn9KMOSOYtb28uPLwqlF44C8wZQYhs3pgtecPPcdh90Fi1wFhgiIUIS6E+SnsL2+3YiNXFk1AJSscTzzY/ddn8XL1EQcpos9gEAOfosLGNklyQ+vRsIooDf1mGsFEisZkDt4ie5D3gD/95SMUOfl0+7hmxTjpA4FC2TWGSOkpgHPlEtU5r6pOzEYLPw3MVqgEhd4PbhW5vEMalHs/5uoDclOAvBRVwyAM/2q3ENl5BwTQIHmrCxFprS6KAeByYWOIQ4PARvsfMSZE49vy
-    ufoLicenseKey: QVozOGVLei8vLy8vQUFBQUtDSnBGN2RIdkUxZ3B3aDdVN1Y3VDNHYno3Vit2N1NoS0VEWlQ2dE00MENzSjIzMzJNblJqUGhlalc4eXlQL2pUNkRXakdZaGxMV09vOURDN3ZUMDNpVjQvekM1eTZ5UzBCSTRyN2twbnhOTW50bmNUb3ZKT3VnVFE5K1BQaG9xSUxXNlViK0pNamdnRU1HSkwxYlNzVEhJeTg3RHJpNWdESFB0dEs3bDdXdjNuMWlRMXRzVmwzYllOZFhsWXIwNlRPOTRSL2pUV1pPNmsxcVJuZitNMWx6dGEzc1NUVHg4NmwydXFXNm9idG9LZm5wQlhJbVV0Y242NUcraVdjZndITHplWDc0UVlhUHUrSG9NeDVEbkUrNWdPK2FWTUxrcC8xMTlmL0ZuNmZ6b2tTZ3hLUllvSmV0YjlsUnYxNkRVd3dWZDZBeTIwUnYrQ3FJcDZCdkhBbUZuM0VyaEkwUFNCakdVRTlUaEtCdVU=
+    vuforiaLicenseKey: 
+    ufoLicenseKey: QWU1RFpFNy8vLy8vQUFBQUtESzNlU0ZwM2tmVmo5UURINXNLWDBoRUZDTEJpVmlNdnNGQm5CSWtlSFNYVUZKRGlvcks0NXdWN3NjcXhtTjhkRGcrQWY0WlQ3MkVPclQwMEN1Z3pQS1VaL0l6cW1RdnBUOEYvcUJNdURRa3UrZ3NpME5jQUI5NlJycENvc0MwSUNVTjd1L1B4YXh1TDdUS3Z0SFBKa0JFU2VzanRrYjYvbkhXTFNmWmJLUXpHcHFmclhqTHR3cERnbzNqZUJucUpVR0dreVR0b0RxV2NOM3FZOVRzdXp6akVIS3VxWkxaU3BRa3dKTXJ6eUF4VC9pVCthUlloNG5qWUUyQ3FLdm9XekhzeEt6SVkzNVZlM2JrN2k2aHJMVERISXhwbitFZG5mYXZUWmVSZnhCQ0hqZFMyeldNbkRmb2thNTB6aXArbnlTa1RoNW9rSVdFaWRDT2RhSXFXaU5rWm1nbWZOcnMvK3g2Q0EyVjJjKzU=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
+    maxSimultaneousImageTargets: 4
     maxSimultaneousObjectTargets: 1
     useDelayedLoadingObjectTargets: 0
     cameraDirection: 0
@@ -28,8 +28,8 @@ MonoBehaviour:
     eyewearType: 0
     stereoFramework: 0
     seeThroughConfiguration: 0
-    viewerName: Generic Cardboard
-    viewerManufacturer: Vuforia
+    viewerName: 
+    viewerManufacturer: 
     useCustomViewer: 0
     customViewer:
       Version: 0
@@ -53,7 +53,7 @@ MonoBehaviour:
   deviceTracker:
     autoInitTracker: 0
     autoStartTracker: 0
-    trackingMode: 1
+    trackingMode: 0
     posePrediction: 0
     modelCorrectionMode: 0
     modelTransformEnabled: 0
