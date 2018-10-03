@@ -22,7 +22,7 @@ The product's target market will consist of all Apple phones users who would lik
 
 # Sprint 2
 
-- [Product Backlog](https://github.com/monacogustavo/COP4331/blob/master/Sprint_2/product_backlog.md)
+- [Product Backlog](blob/master/Sprint_2/product_backlog.md)
 - [Sprint Backlog](https://github.com/monacogustavo/COP4331/blob/master/Sprint_2/sprint_backlog.md)
 - [Design Documents](https://github.com/monacogustavo/COP4331/blob/master/Sprint_2/design_docs.md)
 - [Source Code](https://github.com/monacogustavo/COP4331/blob/master/Sprint_2/source_code.md)
