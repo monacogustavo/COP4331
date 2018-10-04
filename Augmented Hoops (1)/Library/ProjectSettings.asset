@@ -125,6 +125,7 @@ PlayerSettings:
   m_HolographicPauseOnTrackingLoss: 1
   xboxOneDisableKinectGpuReservation: 0
   xboxOneEnable7thCore: 0
+  isWsaHolographicRemotingEnabled: 0
   vrSettings:
     cardboard:
       depthFormat: 0
@@ -152,7 +153,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.vuforia.samples.VuforiaSamples
-    iOS: com.vuforia.samples.VuforiaSamples
+    iOS: com.teamThirteen.AugmentedHoopsTest
   buildNumber:
     iOS: 0
   AndroidBundleVersionCode: 1
@@ -266,21 +267,74 @@ PlayerSettings:
       m_Width: 128
       m_Height: 128
       m_Kind: 0
-  m_BuildTargetPlatformIcons: [{m_BuildTarget: Android, m_Icons: [{m_Textures: [],
-          m_Width: 432, m_Height: 432, m_Kind: 2, m_SubKind: ''}, {m_Textures: [],
-          m_Width: 324, m_Height: 324, m_Kind: 2, m_SubKind: ''}, {m_Textures: [],
-          m_Width: 216, m_Height: 216, m_Kind: 2, m_SubKind: ''}, {m_Textures: [],
-          m_Width: 162, m_Height: 162, m_Kind: 2, m_SubKind: ''}, {m_Textures: [],
-          m_Width: 108, m_Height: 108, m_Kind: 2, m_SubKind: ''}, {m_Textures: [],
-          m_Width: 81, m_Height: 81, m_Kind: 2, m_SubKind: ''}, {m_Textures: [], m_Width: 192,
-          m_Height: 192, m_Kind: 1, m_SubKind: ''}, {m_Textures: [], m_Width: 144,
-          m_Height: 144, m_Kind: 1, m_SubKind: ''}, {m_Textures: [], m_Width: 96,
-          m_Height: 96, m_Kind: 1, m_SubKind: ''}, {m_Textures: [], m_Width: 72, m_Height: 72,
-          m_Kind: 1, m_SubKind: ''}, {m_Textures: [], m_Width: 48, m_Height: 48, m_Kind: 1,
-          m_SubKind: ''}, {m_Textures: [], m_Width: 36, m_Height: 36, m_Kind: 1, m_SubKind: ''}]}]
+  m_BuildTargetPlatformIcons:
+  - m_BuildTarget: Android
+    m_Icons:
+    - m_Textures: []
+      m_Width: 432
+      m_Height: 432
+      m_Kind: 2
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 324
+      m_Height: 324
+      m_Kind: 2
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 216
+      m_Height: 216
+      m_Kind: 2
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 162
+      m_Height: 162
+      m_Kind: 2
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 108
+      m_Height: 108
+      m_Kind: 2
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 81
+      m_Height: 81
+      m_Kind: 2
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 192
+      m_Height: 192
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 144
+      m_Height: 144
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 96
+      m_Height: 96
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 72
+      m_Height: 72
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 48
+      m_Height: 48
+      m_Kind: 1
+      m_SubKind: 
+    - m_Textures: []
+      m_Width: 36
+      m_Height: 36
+      m_Kind: 1
+      m_SubKind: 
   m_BuildTargetBatching: []
-  m_BuildTargetGraphicsAPIs: [{m_BuildTarget: AndroidPlayer, m_APIs: 0b0000000800000015000000,
-      m_Automatic: 1}]
+  m_BuildTargetGraphicsAPIs:
+  - m_BuildTarget: AndroidPlayer
+    m_APIs: 0b0000000800000015000000
+    m_Automatic: 1
   m_BuildTargetVRSettings: []
   m_BuildTargetEnableVuforiaSettings:
   - m_BuildTarget: Android
@@ -570,8 +624,12 @@ PlayerSettings:
   webGLUseEmbeddedResources: 0
   webGLCompressionFormat: 1
   webGLLinkerTarget: 0
-  scriptingDefineSymbols: {4: VUFORIA_IOS_SETTINGS, 7: VUFORIA_ANDROID_SETTINGS, 14: VUFORIA_WSA_SETTINGS}
-  platformArchitecture: {iOS: 2}
+  scriptingDefineSymbols:
+    4: VUFORIA_IOS_SETTINGS
+    7: VUFORIA_ANDROID_SETTINGS
+    14: VUFORIA_WSA_SETTINGS
+  platformArchitecture:
+    iOS: 2
   scriptingBackend:
     Android: 0
     Metro: 1
@@ -581,7 +639,8 @@ PlayerSettings:
     WebPlayer: 0
     iOS: 1
   il2cppCompilerConfiguration: {}
-  incrementalIl2cppBuild: {iOS: 1}
+  incrementalIl2cppBuild:
+    iOS: 1
   allowUnsafeCode: 0
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 0
@@ -607,8 +666,11 @@ PlayerSettings:
   metroTileBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
   metroSplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 1}
   metroSplashScreenUseBackgroundColor: 0
-  platformCapabilities: {WindowsStoreApps: {InternetClient: True, Microphone: True,
-      WebCam: True}}
+  platformCapabilities:
+    WindowsStoreApps:
+      InternetClient: True
+      Microphone: True
+      WebCam: True
   metroFTAName: 
   metroFTAFileTypes: []
   metroProtocolName: 
