@@ -214,7 +214,7 @@ class AudioMixerGroup;
 class AudioMixerGroupController; 
 class AudioMixerSnapshot; 
 class AudioMixerSnapshotController; 
-class Avatar; 
+class Avatar; template <> void RegisterUnityClass<Avatar>(const char*);
 class AvatarMask; 
 class BillboardAsset; 
 class ComputeShader; 
@@ -299,7 +299,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 79 non stripped classes
+	//Total: 80 non stripped classes
 	//0. ParticleSystem
 	RegisterUnityClass<ParticleSystem>("ParticleSystem");
 	//1. Unity::Component
@@ -404,44 +404,44 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<VideoClip>("Video");
 	//51. VideoPlayer
 	RegisterUnityClass<VideoPlayer>("Video");
-	//52. TagManager
-	RegisterUnityClass<TagManager>("Core");
-	//53. GraphicsSettings
-	RegisterUnityClass<GraphicsSettings>("Core");
-	//54. DelayedCallManager
-	RegisterUnityClass<DelayedCallManager>("Core");
-	//55. InputManager
-	RegisterUnityClass<InputManager>("Core");
-	//56. TimeManager
-	RegisterUnityClass<TimeManager>("Core");
-	//57. BuildSettings
-	RegisterUnityClass<BuildSettings>("Core");
-	//58. PlayerSettings
-	RegisterUnityClass<PlayerSettings>("Core");
-	//59. ResourceManager
-	RegisterUnityClass<ResourceManager>("Core");
-	//60. RuntimeInitializeOnLoadManager
-	RegisterUnityClass<RuntimeInitializeOnLoadManager>("Core");
-	//61. ScriptMapper
-	RegisterUnityClass<ScriptMapper>("Core");
-	//62. PhysicsManager
-	RegisterUnityClass<PhysicsManager>("Physics");
-	//63. MonoManager
-	RegisterUnityClass<MonoManager>("Core");
-	//64. MonoScript
-	RegisterUnityClass<MonoScript>("Core");
-	//65. TextAsset
-	RegisterUnityClass<TextAsset>("Core");
-	//66. AudioManager
-	RegisterUnityClass<AudioManager>("Audio");
-	//67. UnityConnectSettings
-	RegisterUnityClass<UnityConnectSettings>("UnityConnect");
-	//68. CloudWebServicesManager
-	RegisterUnityClass<CloudWebServicesManager>("CloudWebServices");
-	//69. UnityAnalyticsManager
-	RegisterUnityClass<UnityAnalyticsManager>("UnityAnalytics");
-	//70. TrailRenderer
+	//52. TrailRenderer
 	RegisterUnityClass<TrailRenderer>("Core");
+	//53. TagManager
+	RegisterUnityClass<TagManager>("Core");
+	//54. GraphicsSettings
+	RegisterUnityClass<GraphicsSettings>("Core");
+	//55. DelayedCallManager
+	RegisterUnityClass<DelayedCallManager>("Core");
+	//56. InputManager
+	RegisterUnityClass<InputManager>("Core");
+	//57. TimeManager
+	RegisterUnityClass<TimeManager>("Core");
+	//58. BuildSettings
+	RegisterUnityClass<BuildSettings>("Core");
+	//59. PlayerSettings
+	RegisterUnityClass<PlayerSettings>("Core");
+	//60. ResourceManager
+	RegisterUnityClass<ResourceManager>("Core");
+	//61. RuntimeInitializeOnLoadManager
+	RegisterUnityClass<RuntimeInitializeOnLoadManager>("Core");
+	//62. ScriptMapper
+	RegisterUnityClass<ScriptMapper>("Core");
+	//63. PhysicsManager
+	RegisterUnityClass<PhysicsManager>("Physics");
+	//64. MonoManager
+	RegisterUnityClass<MonoManager>("Core");
+	//65. MonoScript
+	RegisterUnityClass<MonoScript>("Core");
+	//66. TextAsset
+	RegisterUnityClass<TextAsset>("Core");
+	//67. AudioManager
+	RegisterUnityClass<AudioManager>("Audio");
+	//68. UnityConnectSettings
+	RegisterUnityClass<UnityConnectSettings>("UnityConnect");
+	//69. CloudWebServicesManager
+	RegisterUnityClass<CloudWebServicesManager>("CloudWebServices");
+	//70. UnityAnalyticsManager
+	RegisterUnityClass<UnityAnalyticsManager>("UnityAnalytics");
 	//71. LightProbes
 	RegisterUnityClass<LightProbes>("Core");
 	//72. LevelGameManager
@@ -450,13 +450,15 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<LightmapSettings>("Core");
 	//74. RenderSettings
 	RegisterUnityClass<RenderSettings>("Core");
-	//75. MeshCollider
-	RegisterUnityClass<MeshCollider>("Physics");
-	//76. PhysicMaterial
-	RegisterUnityClass<PhysicMaterial>("Physics");
-	//77. Light
+	//75. Light
 	RegisterUnityClass<Light>("Core");
-	//78. SphereCollider
+	//76. Avatar
+	RegisterUnityClass<Avatar>("Animation");
+	//77. MeshCollider
+	RegisterUnityClass<MeshCollider>("Physics");
+	//78. PhysicMaterial
+	RegisterUnityClass<PhysicMaterial>("Physics");
+	//79. SphereCollider
 	RegisterUnityClass<SphereCollider>("Physics");
 
 }

@@ -45,6 +45,9 @@ EditorBuildSettings:
     path: Assets/SamplesResources/Scenes/3-VuMark.unity
     guid: d9b53b25a285640cf8ac170a80603e34
   - enabled: 1
+    path: Assets/MainMenu.unity
+    guid: 9bd33c2eb797d445ab179a374b14b9e9
+  - enabled: 1
     path: Assets/AR.unity
     guid: f65820e429b13421f85dd0cad21ce9d6
   m_configObjects: {}

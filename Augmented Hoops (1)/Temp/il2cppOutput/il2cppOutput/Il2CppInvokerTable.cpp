@@ -7905,35 +7905,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // EXTENDERTYPE_T2449612322_H
-#ifndef SIGN_T3338384038_H
-#define SIGN_T3338384038_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// Mono.Math.BigInteger/Sign
-struct  Sign_t3338384038 
-{
-public:
-	// System.Int32 Mono.Math.BigInteger/Sign::value__
-	int32_t ___value___1;
-
-public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(Sign_t3338384038, ___value___1)); }
-	inline int32_t get_value___1() const { return ___value___1; }
-	inline int32_t* get_address_of_value___1() { return &___value___1; }
-	inline void set_value___1(int32_t value)
-	{
-		___value___1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // SIGN_T3338384038_H
 #ifndef SIGN_T3338384039_H
 #define SIGN_T3338384039_H
 #ifdef __clang__
@@ -7963,23 +7934,23 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // SIGN_T3338384039_H
-#ifndef CONFIDENCEFACTOR_T2516000285_H
-#define CONFIDENCEFACTOR_T2516000285_H
+#ifndef SIGN_T3338384038_H
+#define SIGN_T3338384038_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// Mono.Math.Prime.ConfidenceFactor
-struct  ConfidenceFactor_t2516000285 
+// Mono.Math.BigInteger/Sign
+struct  Sign_t3338384038 
 {
 public:
-	// System.Int32 Mono.Math.Prime.ConfidenceFactor::value__
+	// System.Int32 Mono.Math.BigInteger/Sign::value__
 	int32_t ___value___1;
 
 public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(ConfidenceFactor_t2516000285, ___value___1)); }
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(Sign_t3338384038, ___value___1)); }
 	inline int32_t get_value___1() const { return ___value___1; }
 	inline int32_t* get_address_of_value___1() { return &___value___1; }
 	inline void set_value___1(int32_t value)
@@ -7991,7 +7962,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // CONFIDENCEFACTOR_T2516000285_H
+#endif // SIGN_T3338384038_H
 #ifndef CONFIDENCEFACTOR_T2516000286_H
 #define CONFIDENCEFACTOR_T2516000286_H
 #ifdef __clang__
@@ -8021,6 +7992,35 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // CONFIDENCEFACTOR_T2516000286_H
+#ifndef CONFIDENCEFACTOR_T2516000285_H
+#define CONFIDENCEFACTOR_T2516000285_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// Mono.Math.Prime.ConfidenceFactor
+struct  ConfidenceFactor_t2516000285 
+{
+public:
+	// System.Int32 Mono.Math.Prime.ConfidenceFactor::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(ConfidenceFactor_t2516000285, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
+	{
+		___value___1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // CONFIDENCEFACTOR_T2516000285_H
 #ifndef ALERTDESCRIPTION_T1549755611_H
 #define ALERTDESCRIPTION_T1549755611_H
 #ifdef __clang__
@@ -11144,6 +11144,35 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // DEPTHTEXTUREMODE_T4161834719_H
+#ifndef DEVICEORIENTATION_T3526859474_H
+#define DEVICEORIENTATION_T3526859474_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.DeviceOrientation
+struct  DeviceOrientation_t3526859474 
+{
+public:
+	// System.Int32 UnityEngine.DeviceOrientation::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(DeviceOrientation_t3526859474, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
+	{
+		___value___1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // DEVICEORIENTATION_T3526859474_H
 #ifndef EVENTMODIFIERS_T2016417398_H
 #define EVENTMODIFIERS_T2016417398_H
 #ifdef __clang__
@@ -29953,6 +29982,13 @@ void* RuntimeInvoker_Void_t1185182177_Int32_t2950945753_TouchU26_t4008990780 (Il
 	return NULL;
 }
 
+void* RuntimeInvoker_DeviceOrientation_t3526859474 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef int32_t (*Func)(void* obj, const RuntimeMethod* method);
+	int32_t ret = ((Func)methodPointer)(obj, methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
 void* RuntimeInvoker_IMECompositionMode_t2677948540 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef int32_t (*Func)(void* obj, const RuntimeMethod* method);
@@ -40180,7 +40216,7 @@ void* RuntimeInvoker_RuntimeObject_FloatTween_t1274330004 (Il2CppMethodPointer m
 	return ret;
 }
 
-extern const InvokerMethod g_Il2CppInvokerPointers[2308] = 
+extern const InvokerMethod g_Il2CppInvokerPointers[2309] = 
 {
 	RuntimeInvoker_Void_t1185182177,
 	RuntimeInvoker_Boolean_t97287965_RuntimeObject,
@@ -41029,6 +41065,7 @@ extern const InvokerMethod g_Il2CppInvokerPointers[2308] =
 	RuntimeInvoker_Void_t1185182177_Vector2U26_t2376273893,
 	RuntimeInvoker_Touch_t1921856868_Int32_t2950945753,
 	RuntimeInvoker_Void_t1185182177_Int32_t2950945753_TouchU26_t4008990780,
+	RuntimeInvoker_DeviceOrientation_t3526859474,
 	RuntimeInvoker_IMECompositionMode_t2677948540,
 	RuntimeInvoker_Void_t1185182177_Vector2_t2156229523,
 	RuntimeInvoker_Void_t1185182177_Guid_t_RuntimeObject_Int32_t2950945753,

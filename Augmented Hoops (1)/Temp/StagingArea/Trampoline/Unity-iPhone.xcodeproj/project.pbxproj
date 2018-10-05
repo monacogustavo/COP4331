@@ -121,6 +121,7 @@
 		8AF7755D1799329100341121 /* LifeCycleListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A292A9817992CE100409BA4 /* LifeCycleListener.mm */; };
 		8AF7756017997D2700341121 /* AppDelegateListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8AF7755F17997D1300341121 /* AppDelegateListener.mm */; };
 		8B254C448E9F627C66348020 /* Il2CppCompilerCalculateTypeValues_7Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFA744A5991EBBB726C712F8 /* Il2CppCompilerCalculateTypeValues_7Table.cpp */; };
+		8C4ECDDD1C5F637A0070D641 /* Vuforia in Resources */ = {isa = PBXBuildFile; fileRef = 8C4ECDDC1C5F637A0070D641 /* Vuforia */; };
 		8D6646099E0ECC1A9E243113 /* Il2CppCompilerCalculateTypeValues_21Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 120E42619BCCC750EA616091 /* Il2CppCompilerCalculateTypeValues_21Table.cpp */; };
 		8E6842A0A7BF8AADE6CEF0E9 /* Il2CppGenericMethodTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7FD48BEB62403FA5B4EF68B /* Il2CppGenericMethodTable.cpp */; };
 		8F4444219785EC4EED7B4A43 /* Il2CppCompilerCalculateTypeValues_8Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9624779924CF621BD94BF6F /* Il2CppCompilerCalculateTypeValues_8Table.cpp */; };
@@ -141,8 +142,6 @@
 		A9BF41D9B50D1FF852DE41B2 /* Il2CppCompilerCalculateTypeValues_19Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E226473DBD62FDC8DA62C874 /* Il2CppCompilerCalculateTypeValues_19Table.cpp */; };
 		AA31BF971B55660D0013FB1B /* Data in Resources */ = {isa = PBXBuildFile; fileRef = AA31BF961B55660D0013FB1B /* Data */; };
 		AA5D99871AFAD3C800B27605 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5D99861AFAD3C800B27605 /* CoreText.framework */; };
-		AA6C5DF91A13842A0030E49A = {isa = PBXBuildFile; fileRef = AA6C5DF71A13842A0030E49A /* LaunchScreenImage-Landscape.png */; };
-		AA6C5DFA1A13842A0030E49A = {isa = PBXBuildFile; fileRef = AA6C5DF81A13842A0030E49A /* LaunchScreenImage-Portrait.png */; };
 		AAC3E38D1A68945900F6174A /* RegisterFeatures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAC3E38B1A68945900F6174A /* RegisterFeatures.cpp */; };
 		AAFE69D219F187C200638316 /* UnityViewControllerListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = AAFE69D119F187C200638316 /* UnityViewControllerListener.mm */; };
 		ABF34270BB12BC84617B0680 /* Il2CppCompilerCalculateTypeValuesTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB4D21BEE5F0FAB9912B8B /* Il2CppCompilerCalculateTypeValuesTable.cpp */; };
@@ -238,7 +237,7 @@
 		188C468C9CE685A6BBAB65D4 /* Bulk_UnityEngine.UnityWebRequestModule_0.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_UnityEngine.UnityWebRequestModule_0.cpp; path = Classes/Native/Bulk_UnityEngine.UnityWebRequestModule_0.cpp; sourceTree = SOURCE_ROOT; };
 		1898435EAE138E136EB07ECE /* UnresolvedVirtualCallStubs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnresolvedVirtualCallStubs.cpp; path = Classes/Native/UnresolvedVirtualCallStubs.cpp; sourceTree = SOURCE_ROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D6058910D05DD3D006BFB54 /* Unity-Target-New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unity-Target-New.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* AugmentedHoopsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AugmentedHoopsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F2F4D18B07159C255685646 /* UnityClassRegistration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityClassRegistration.cpp; path = Classes/Native/UnityClassRegistration.cpp; sourceTree = SOURCE_ROOT; };
 		210C4EA6B9642C974D56FD95 /* libVuforiaWrapper.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libVuforiaWrapper.a; path = Libraries/libVuforiaWrapper.a; sourceTree = SOURCE_ROOT; };
 		231640619DA8F136A0723945 /* Il2CppCompilerCalculateTypeValues_6Table.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppCompilerCalculateTypeValues_6Table.cpp; path = Classes/Native/Il2CppCompilerCalculateTypeValues_6Table.cpp; sourceTree = SOURCE_ROOT; };
@@ -264,7 +263,7 @@
 		4E090A331F27884B0077B28D /* StoreReview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoreReview.m; sourceTree = "<group>"; };
 		4FC345E58C8AAB1D45FA0148 /* GenericMethods3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenericMethods3.cpp; path = Classes/Native/GenericMethods3.cpp; sourceTree = SOURCE_ROOT; };
 		51924ED49CF94A8AFB16D17A /* VuforiaRenderDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VuforiaRenderDelegate.h; path = Libraries/VuforiaRenderDelegate.h; sourceTree = SOURCE_ROOT; };
-		5623C57317FDCB0800090B9E /* Unity-iPhone Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unity-iPhone Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5623C57317FDCB0800090B9E /* Unity-iPhone Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Unity-iPhone Tests.xctest"; path = AugmentedHoopsTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5623C57A17FDCB0900090B9E /* Unity-iPhone Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unity-iPhone Tests-Info.plist"; sourceTree = "<group>"; };
 		5623C57C17FDCB0900090B9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5623C57E17FDCB0900090B9E /* Unity_iPhone_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Unity_iPhone_Tests.m; sourceTree = "<group>"; };
@@ -386,6 +385,7 @@
 		8AECDC781950835600CB29E8 /* UnityMetalSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnityMetalSupport.h; sourceTree = "<group>"; };
 		8AF7755E17997D1300341121 /* AppDelegateListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegateListener.h; sourceTree = "<group>"; };
 		8AF7755F17997D1300341121 /* AppDelegateListener.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegateListener.mm; sourceTree = "<group>"; };
+		8C4ECDDC1C5F637A0070D641 /* Vuforia */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = Vuforia; path = Data/Raw/Vuforia; sourceTree = SOURCE_ROOT; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		904940CBA51B4267E746116B /* Il2CppCompilerCalculateTypeValues_11Table.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppCompilerCalculateTypeValues_11Table.cpp; path = Classes/Native/Il2CppCompilerCalculateTypeValues_11Table.cpp; sourceTree = SOURCE_ROOT; };
 		913043D99B4F54ADF30BD89F /* IUnityInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IUnityInterface.h; path = Classes/Unity/IUnityInterface.h; sourceTree = SOURCE_ROOT; };
@@ -401,8 +401,6 @@
 		A5E240B7BB61797BE55188D3 /* Il2CppCompilerCalculateTypeValues_13Table.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppCompilerCalculateTypeValues_13Table.cpp; path = Classes/Native/Il2CppCompilerCalculateTypeValues_13Table.cpp; sourceTree = SOURCE_ROOT; };
 		AA31BF961B55660D0013FB1B /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
 		AA5D99861AFAD3C800B27605 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		AA6C5DF71A13842A0030E49A /* LaunchScreenImage-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchScreenImage-Landscape.png"; sourceTree = "<group>"; };
-		AA6C5DF81A13842A0030E49A /* LaunchScreenImage-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchScreenImage-Portrait.png"; sourceTree = "<group>"; };
 		AAC3E38B1A68945900F6174A /* RegisterFeatures.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RegisterFeatures.cpp; sourceTree = "<group>"; };
 		AAC3E38C1A68945900F6174A /* RegisterFeatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterFeatures.h; sourceTree = "<group>"; };
 		AAD9493FB8D1D50B25AB3231 /* Il2CppGenericMethodDefinitions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppGenericMethodDefinitions.cpp; path = Classes/Native/Il2CppGenericMethodDefinitions.cpp; sourceTree = SOURCE_ROOT; };
@@ -506,7 +504,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* Unity-Target-New.app */,
+				1D6058910D05DD3D006BFB54 /* AugmentedHoopsTest.app */,
 				5623C57317FDCB0800090B9E /* Unity-iPhone Tests.xctest */,
 			);
 			name = Products;
@@ -515,6 +513,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				8C4ECDDC1C5F637A0070D641 /* Vuforia */,
 				AA31BF961B55660D0013FB1B /* Data */,
 				56C56C9717D6015100616839 /* Images.xcassets */,
 				D82DCFB50E8000A5005D6AD8 /* Classes */,
@@ -848,7 +847,7 @@
 			);
 			name = "Unity-iPhone";
 			productName = "iPhone-target";
-			productReference = 1D6058910D05DD3D006BFB54 /* Unity-Target-New.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* AugmentedHoopsTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5623C57217FDCB0800090B9E /* Unity-iPhone Tests */ = {
@@ -877,7 +876,8 @@
 			attributes = {
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = 2JTL9J23AL;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.GameControllers.appletvos = {
 								enabled = 1;
@@ -916,6 +916,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C4ECDDD1C5F637A0070D641 /* Vuforia in Resources */,
 				AA31BF971B55660D0013FB1B /* Data in Resources */,
 				56C56C9817D6015200616839 /* Images.xcassets in Resources */,
 				28DB41E08D65738E7A2AE5F3 /* LaunchScreen-iPhone.xib in Resources */,
@@ -948,7 +949,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"$PROJECT_DIR/MapFileParser.sh\"";
+			shellScript = "\"$PROJECT_DIR/MapFileParser.sh\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data/Raw/QCAR\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data/Raw/QCAR\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data/Raw/QCAR\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data/Raw/QCAR\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data/Raw/QCAR\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data/Raw/QCAR\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data/Raw/QCAR\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data/Raw/QCAR\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data/Raw/QCAR\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data/Raw/QCAR\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data/Raw/QCAR\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data/Raw/QCAR\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data/Raw/QCAR\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data/Raw/QCAR\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data/Raw/QCAR\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data/Raw/QCAR\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data/Raw/QCAR\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data/Raw/QCAR\"\nrm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Data/Raw/QCAR\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1145,10 +1146,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_BITCODE = YES;
+				DEVELOPMENT_TEAM = 2JTL9J23AL;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
@@ -1160,6 +1163,25 @@
 				GCC_PREFIX_HEADER = Classes/Prefix.pch;
 				GCC_USE_INDIRECT_FUNCTION_CALLS = NO;
 				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
 					"$(inherited)",
 					"\"$(SRCROOT)/Classes\"",
 					"\"$(SRCROOT)\"",
@@ -1188,6 +1210,25 @@
 					"$(OTHER_CFLAGS)",
 				);
 				OTHER_LDFLAGS = (
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
 					"$(inherited)",
 					"-weak_framework",
 					CoreMotion,
@@ -1195,6 +1236,7 @@
 				);
 				PRODUCT_NAME = AugmentedHoopsTest;
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1214,10 +1256,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_BITCODE = YES;
+				DEVELOPMENT_TEAM = 2JTL9J23AL;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
@@ -1226,6 +1270,25 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Classes/Prefix.pch;
 				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
 					"$(inherited)",
 					"\"$(SRCROOT)/Classes\"",
 					"\"$(SRCROOT)\"",
@@ -1254,6 +1317,25 @@
 					"$(OTHER_CFLAGS)",
 				);
 				OTHER_LDFLAGS = (
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
 					"$(inherited)",
 					"-weak_framework",
 					CoreMotion,
@@ -1261,6 +1343,7 @@
 				);
 				PRODUCT_NAME = AugmentedHoopsTest;
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1382,7 +1465,7 @@
 			buildSettings = {
 				ARCHS = armv7;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
@@ -1407,11 +1490,13 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_BITCODE = YES;
+				DEVELOPMENT_TEAM = 2JTL9J23AL;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
@@ -1420,6 +1505,25 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Classes/Prefix.pch;
 				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
 					"$(inherited)",
 					"\"$(SRCROOT)/Classes\"",
 					"\"$(SRCROOT)\"",
@@ -1448,6 +1552,25 @@
 					"$(OTHER_CFLAGS)",
 				);
 				OTHER_LDFLAGS = (
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
 					"$(inherited)",
 					"-weak_framework",
 					CoreMotion,
@@ -1455,6 +1578,7 @@
 				);
 				PRODUCT_NAME = AugmentedHoopsTest;
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1519,7 +1643,7 @@
 			buildSettings = {
 				ARCHS = armv7;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
@@ -1544,10 +1668,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_BITCODE = YES;
+				DEVELOPMENT_TEAM = 2JTL9J23AL;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
@@ -1556,6 +1682,25 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Classes/Prefix.pch;
 				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
+					"$(SRCROOT)/Libraries",
 					"$(inherited)",
 					"\"$(SRCROOT)/Classes\"",
 					"\"$(SRCROOT)\"",
@@ -1584,6 +1729,25 @@
 					"$(OTHER_CFLAGS)",
 				);
 				OTHER_LDFLAGS = (
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
+					"-lc++",
 					"$(inherited)",
 					"-weak_framework",
 					CoreMotion,
@@ -1591,6 +1755,7 @@
 				);
 				PRODUCT_NAME = AugmentedHoopsTest;
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1656,7 +1821,7 @@
 				ARCHS = armv7;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;
@@ -1677,7 +1842,7 @@
 			buildSettings = {
 				ARCHS = armv7;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_ENABLE_CPP_RTTI = NO;

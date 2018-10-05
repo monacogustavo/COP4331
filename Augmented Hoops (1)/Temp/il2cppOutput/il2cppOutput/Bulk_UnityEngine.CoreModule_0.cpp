@@ -11009,6 +11009,35 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // DEPTHTEXTUREMODE_T4161834719_H
+#ifndef DEVICEORIENTATION_T3526859474_H
+#define DEVICEORIENTATION_T3526859474_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.DeviceOrientation
+struct  DeviceOrientation_t3526859474 
+{
+public:
+	// System.Int32 UnityEngine.DeviceOrientation::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(DeviceOrientation_t3526859474, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
+	{
+		___value___1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // DEVICEORIENTATION_T3526859474_H
 #ifndef DISPLAY_T1387065949_H
 #define DISPLAY_T1387065949_H
 #ifdef __clang__
@@ -24367,6 +24396,14 @@ IL_000c:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void UnityEngine.DisallowMultipleComponent::.ctor()
 extern "C" IL2CPP_METHOD_ATTR void DisallowMultipleComponent__ctor_m1263048393 (DisallowMultipleComponent_t1422053217 * __this, const RuntimeMethod* method)
 {
@@ -31043,6 +31080,16 @@ extern "C" IL2CPP_METHOD_ATTR bool Input_get_touchSupported_m1480684970 (Runtime
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Input_get_touchSupported_m1480684970_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Input::get_touchSupported()");
 	bool retVal = _il2cpp_icall_func();
+	return retVal;
+}
+// UnityEngine.DeviceOrientation UnityEngine.Input::get_deviceOrientation()
+extern "C" IL2CPP_METHOD_ATTR int32_t Input_get_deviceOrientation_m1569488603 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	typedef int32_t (*Input_get_deviceOrientation_m1569488603_ftn) ();
+	static Input_get_deviceOrientation_m1569488603_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Input_get_deviceOrientation_m1569488603_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Input::get_deviceOrientation()");
+	int32_t retVal = _il2cpp_icall_func();
 	return retVal;
 }
 // UnityEngine.IMECompositionMode UnityEngine.Input::get_imeCompositionMode()

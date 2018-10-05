@@ -528,6 +528,7 @@ extern const Il2CppType Rigidbody_t3916780224_0_0_0;
 extern const Il2CppType Basketball_t3170636953_0_0_0;
 extern const Il2CppType Shooting_t637698936_0_0_0;
 extern const Il2CppType Soccer_t3745447341_0_0_0;
+extern const Il2CppType TrailRenderer_t1820797054_0_0_0;
 extern const Il2CppType SoccerBall_t1214585394_0_0_0;
 extern const Il2CppType UserDefinedTargetBuildingBehaviour_t4262637471_0_0_0;
 extern const Il2CppType FrameQualityMeter_t3206426345_0_0_0;
@@ -2022,6 +2023,8 @@ static const RuntimeType* GenInst_Shooting_t637698936_0_0_0_Types[] = { (&Shooti
 extern const Il2CppGenericInst GenInst_Shooting_t637698936_0_0_0 = { 1, GenInst_Shooting_t637698936_0_0_0_Types };
 static const RuntimeType* GenInst_Soccer_t3745447341_0_0_0_Types[] = { (&Soccer_t3745447341_0_0_0) };
 extern const Il2CppGenericInst GenInst_Soccer_t3745447341_0_0_0 = { 1, GenInst_Soccer_t3745447341_0_0_0_Types };
+static const RuntimeType* GenInst_TrailRenderer_t1820797054_0_0_0_Types[] = { (&TrailRenderer_t1820797054_0_0_0) };
+extern const Il2CppGenericInst GenInst_TrailRenderer_t1820797054_0_0_0 = { 1, GenInst_TrailRenderer_t1820797054_0_0_0_Types };
 static const RuntimeType* GenInst_SoccerBall_t1214585394_0_0_0_Types[] = { (&SoccerBall_t1214585394_0_0_0) };
 extern const Il2CppGenericInst GenInst_SoccerBall_t1214585394_0_0_0 = { 1, GenInst_SoccerBall_t1214585394_0_0_0_Types };
 static const RuntimeType* GenInst_UserDefinedTargetBuildingBehaviour_t4262637471_0_0_0_Types[] = { (&UserDefinedTargetBuildingBehaviour_t4262637471_0_0_0) };
@@ -2552,7 +2555,7 @@ static const RuntimeType* GenInst_AugmentationStateMachineBehaviour_GetMethod_m5
 extern const Il2CppGenericInst GenInst_AugmentationStateMachineBehaviour_GetMethod_m586052530_gp_0_0_0_0 = { 1, GenInst_AugmentationStateMachineBehaviour_GetMethod_m586052530_gp_0_0_0_0_Types };
 static const RuntimeType* GenInst_AugmentationStateMachineBehaviour_AddDelegateToCache_m4254555934_gp_0_0_0_0_Types[] = { (&AugmentationStateMachineBehaviour_AddDelegateToCache_m4254555934_gp_0_0_0_0) };
 extern const Il2CppGenericInst GenInst_AugmentationStateMachineBehaviour_AddDelegateToCache_m4254555934_gp_0_0_0_0 = { 1, GenInst_AugmentationStateMachineBehaviour_AddDelegateToCache_m4254555934_gp_0_0_0_0_Types };
-extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[912] = 
+extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[913] = 
 {
 	&GenInst_RuntimeObject_0_0_0,
 	&GenInst_Int32_t2950945753_0_0_0,
@@ -3201,6 +3204,7 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[912] =
 	&GenInst_Basketball_t3170636953_0_0_0,
 	&GenInst_Shooting_t637698936_0_0_0,
 	&GenInst_Soccer_t3745447341_0_0_0,
+	&GenInst_TrailRenderer_t1820797054_0_0_0,
 	&GenInst_SoccerBall_t1214585394_0_0_0,
 	&GenInst_UserDefinedTargetBuildingBehaviour_t4262637471_0_0_0,
 	&GenInst_FrameQualityMeter_t3206426345_0_0_0,

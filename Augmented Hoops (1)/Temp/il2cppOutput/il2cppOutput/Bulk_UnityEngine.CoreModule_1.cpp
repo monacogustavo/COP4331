@@ -9100,6 +9100,26 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // SPRITERENDERER_T3235626157_H
+#ifndef TRAILRENDERER_T1820797054_H
+#define TRAILRENDERER_T1820797054_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.TrailRenderer
+struct  TrailRenderer_t1820797054  : public Renderer_t2627027031
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // TRAILRENDERER_T1820797054_H
 // UnityEngine.Material[]
 struct MaterialU5BU5D_t561872642  : public RuntimeArray
 {
@@ -16981,6 +17001,14 @@ IL_0012:
 		return L_2;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

@@ -1226,6 +1226,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Input_set_imeCompositionMode();
 		Register_UnityEngine_Input_set_imeCompositionMode();
 
+		//UnityEngine.DeviceOrientation UnityEngine.Input::get_deviceOrientation()
+		void Register_UnityEngine_Input_get_deviceOrientation();
+		Register_UnityEngine_Input_get_deviceOrientation();
+
 		//UnityEngine.IMECompositionMode UnityEngine.Input::get_imeCompositionMode()
 		void Register_UnityEngine_Input_get_imeCompositionMode();
 		Register_UnityEngine_Input_get_imeCompositionMode();

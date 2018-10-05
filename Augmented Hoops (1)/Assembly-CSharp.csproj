@@ -79,6 +79,9 @@
     <Compile Include="Assets\Common\Scripts\TapHandler.cs" />
     <Compile Include="Assets\Common\Scripts\TrackableSettings.cs" />
     <Compile Include="Assets\Game Scripts\DestroyBall.cs" />
+    <Compile Include="Assets\Game Scripts\GameTimer.cs" />
+    <Compile Include="Assets\Game Scripts\InitFontSizes.cs" />
+    <Compile Include="Assets\Game Scripts\MainMenuController.cs" />
     <Compile Include="Assets\Game Scripts\SpawnBall.cs" />
     <Compile Include="Assets\Game Scripts\SwipeController.cs" />
     <Compile Include="Assets\SamplesResources\AugmentationAssets\Scripts\Augmentations\Astronaut.cs" />
