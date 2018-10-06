@@ -17,7 +17,7 @@ public class SpawnBall : MonoBehaviour {
             Vector3 newPosition = new Vector3(transform.position.x, transform.position.y - 1.0f, transform.position.z + 4.0f);
 
             // Spawn ball at new AR camera location
-            GameObject newBall = Instantiate(basketBall, newPosition, Quaternion.identity);
+            GameObject newBall = Instantiate(basketBall, newPosition, Quaternion.identity, GameObject.Find("ARCamera").transform);
             newBall.name = "basketball(In-Hand)";
         }
         else
@@ -27,7 +27,7 @@ public class SpawnBall : MonoBehaviour {
             //rb.isKinematic = false;
             //rb.name = "basketball(Shot)";
             //rb.transform.parent = GameObject.Find("ImageTarget").transform;
-            //rb.AddForce(0, 500, 250);
+            //rb.AddForce(0, 500, 175);
             Debug.Log("Ball already in hand");
         }
     }

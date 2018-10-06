@@ -8,17 +8,25 @@ using UnityEngine;
 
 public class BounceCount : MonoBehaviour {
 
-    // Counter
-    private int bounceCount = 0;
+    // Counters
+    private int surfaceBounceCount = 0;
+    private int hoopBounceCount = 0;
 
     private void OnCollisionEnter(Collision collision) {
         if (collision.gameObject.name == "Surface") {
-            bounceCount++;
-            Debug.Log("Ball made contact with ground " + bounceCount + " times");
+
+            surfaceBounceCount++;
 
             // Issues warning to console if ball bounces more than 3x
-            if (bounceCount > 3)
+            if (surfaceBounceCount > 3)
                 Debug.LogWarning("Test Case 'BounceCount.cs' failed!");
+        }
+
+        if(collision.gameObject.name == "hoop") {
+
+            hoopBounceCount++;
+
+            Debug.LogWarning("Ball has bounced off hoop " + hoopBounceCount + " times");
         }
 
     }

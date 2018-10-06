@@ -17,6 +17,10 @@ public class BallCollisionDetector : MonoBehaviour {
             // Prints out on Console anytime the 
             // Ball object hits Surface object
             Debug.Log("Ball detected surface");
+
+        if (col.gameObject.name == "hoop")
+
+            Debug.Log("Ball detected hoop");
     }
 
 }

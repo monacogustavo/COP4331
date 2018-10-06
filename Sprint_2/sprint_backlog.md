@@ -9,6 +9,7 @@
 | 07  | As a gamer, I want the ball to collide with the backboard, so that I don't have to hit "nothing but net"                                         | 1        | 1      | When the ball hits the backboard, it doesn't travel through it                             |
 | 08  | As a gamer, I want the ball to bounce off the backboard, so that I can make shots off the backboard                                              | 1        | 2      | When the ball collides with the backboard, it bounces off of it                            |
 | 12  | Aquire 3D Hoop Model                                                                                                                             | 1        | 1      | A 3D model of a basketball backboard/hoop is in our project                                |
+| 15  | Create Main Menu                                                                                                                                 | 1        | 2      | App loads to main menu before starting game                                                |
 
 ## Burndown Chart
 
