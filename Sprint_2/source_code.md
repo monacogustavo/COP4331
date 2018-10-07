@@ -1,8 +1,8 @@
-## Source Code
+# Source Code
 
 https://github.com/monacogustavo/COP4331/tree/master/Augmented%20Hoops%20(1)
 
-### Run instructions
+## Run instructions
 
 #### Computer
 
@@ -44,7 +44,7 @@ _Must build and deploy to phone first via one of the methods in Build Instructio
 - Press the 2D ball in the lower left hand corner to "grab" a ball
 - Swipe up on the screen to shoot the ball at the target
 
-### Build Instructions
+## Build Instructions
 
 #### iPhone
 

@@ -10,8 +10,8 @@
 | 08  | As a gamer, I want the ball to bounce off the backboard, so that I can make shots off the backboard                                              | 1        | 2      | When the ball collides with the backboard, it bounces off of it                            |
 | 12  | Aquire 3D Hoop Model                                                                                                                             | 1        | 1      | A 3D model of a basketball backboard/hoop is in our project                                |
 | 15  | Create Main Menu                                                                                                                                 | 1        | 2      | App loads to main menu before starting game                                                |
-| 16  | Create "play" functionality to intiate game state from main menu                                                                                 | 1        | 2      | Game starts after clicking play button from main menu                                      | DONE |
-| 18  | Create "Exit" functionality to exit the game from the main menu                                                                                  | 3        | 2      | Game ends after clicking exit button from main menu                                        | DONE |
+| 16  | Create "play" functionality to intiate game state from main menu                                                                                 | 1        | 2      | Game starts after clicking play button from main menu                                      |
+| 18  | Create "Exit" functionality to exit the game from the main menu                                                                                  | 3        | 2      | Game ends after clicking exit button from main menu                                        |
 
 ## Burndown Chart
 

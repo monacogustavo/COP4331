@@ -4,13 +4,9 @@
 
 - #### Main Menu
 
-![Main Menu](/Sprint_2/images/Home_Splash_Screen.jpg 'Main Menu')
-
 ![Main Menu](/Sprint_2/images/StartMenuMockup.png 'Main Menu')
 
 - #### Recap Screen
-
-![Recap Screen](/Sprint_2/images/Score_Splash_Screen.jpg 'Recap Screen')
 
 ![Recap Screen](/Sprint_2/images/RecapMockup.png 'Recap Screen')
 
