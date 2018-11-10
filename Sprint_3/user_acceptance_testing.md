@@ -99,8 +99,7 @@
 	</tr>
 </table>
 
-### #6: As a gamer, I want the basketball to disappear a short time after making or missing a shot, so that there are not
-basketballs all over the place
+### #6: As a gamer, I want the basketball to disappear a short time after making or missing a shot, so that there are not basketballs all over the place
 <table>
 	<tr>
 		<td><b>Step</b></td>
@@ -134,9 +133,9 @@ basketballs all over the place
 	</tr>
 	<tr>
 		<td> 5 </td>
-		<td> Observe the ball disappear after it hits the ground a second time
+		<td> Observe the ball disappear after bouncing 3 times or going out of bounds
 		</td>
-		<td> The ball will disappear before it bounces 3 times
+		<td> The ball will disappear after bouncing 3 times or going out of bounds 
 		</td>
 		<td> PASS </td>
 	</tr>

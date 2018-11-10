@@ -35,5 +35,5 @@ The product's target market will consist of all Apple phones users who would lik
 - [Sprint Backlog](/Sprint_3/sprint_backlog.md)
 - [Design Documents](/Sprint_3/design_docs.md)
 - [Source Code](/Sprint_3/source_code.md)
-- [Test Cases](/Sprint_3/test_cases.md)
+- [Test](/Sprint_3/tests.md)
 - [Product Demonstration](/Sprint_3/product_demonstration.md)
