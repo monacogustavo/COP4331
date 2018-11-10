@@ -52,13 +52,13 @@
 	<tr>
 		<td>9.1</td>
 		<td>Search and install from Apple AppStore</td>
-		<td>PASS</td>
+		<td>CANCELLED</td>
 		<td>9</td>
 	</tr>
 	<tr>
 		<td>9.2</td>
 		<td>Search and install from Google Play</td>
-		<td>PASS</td>
+		<td>CANCELLED</td>
 		<td>9</td>
 	</tr>
 	<tr>

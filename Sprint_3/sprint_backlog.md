@@ -38,8 +38,8 @@
 		<td>As a gamer, I want to download the game off the app store, so that I can easily install and play it</td>
 		<td>4</td>
 		<td>8</td>
-		<td>The game is available on the Apple app store and can be downloaded</td>
-		<td>DONE</td>
+		<td>Cancelled due to expensive licenses fees.</td>
+		<td>CANCELLED</td>
 	</tr>
 	<tr>
 		<td>10</td>

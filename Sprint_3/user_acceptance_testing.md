@@ -155,7 +155,7 @@
 		</td>
 		<td> The application appears in the list, and you are able to install free
 		</td>
-		<td> PASS </td>
+		<td> CANCELLED </td>
 	</tr>
 	<tr>
 		<td> 2 </td>
@@ -163,7 +163,7 @@
 		</td>
 		<td> The application is installed in your mobile device
 		</td>
-		<td> PASS </td>
+		<td> CANCELLED </td>
 	</tr>
 	<tr>
 		<td> 3 </td>
@@ -171,7 +171,7 @@
 		</td>
 		<td> The application will open, showing the main menu
 		</td>
-		<td> PASS </td>
+		<td> CANCELLED </td>
 	</tr>
 	<tr>
 		<td> 4 </td>
@@ -179,7 +179,7 @@
 		</td>
 		<td> The screen will show the AR camera with the game scene
 		</td>
-		<td> PASS </td>
+		<td> CANCELLED </td>
 	</tr>
 </table>
 
