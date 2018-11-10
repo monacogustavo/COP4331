@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/SamplesResources/Scenes/3-VuMark.unity
     guid: d9b53b25a285640cf8ac170a80603e34
+  - enabled: 0
+    path: Assets/Scores.unity
+    guid: 8eaf0aaf437501447881f4f6b5175b43
   m_configObjects: {}
