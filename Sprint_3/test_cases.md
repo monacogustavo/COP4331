@@ -1,13 +1,112 @@
-# Test Cases
+# Unit Tests
 
-| ID / User Story                    | Test                                                                                                                                                                                                                    | Status |
-| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
-| 00 - Swipe and move basketball     | 1. Load game<br/>2. Press Play<br/>3. Tap 2D ball in lower left hand corner to pick up a ball<br/>4. Touch ball on screen and move finger<br/>5. Ball should move with finger                                           | PASSED |
-| 01 - Release to shoot basketball   | 1. Load game<br/>2. Press Play<br/>3. Tap 2D ball in lower left hand corner to pick up a ball<br/>4. Touch ball on screen<br/>5. Swipe finger up and release<br/>6. Ball should move up and away from camera on release | PASSED |
-| 05 - Ball bounces off floor        | /Assets/Test Cases/BounceCount.cs                                                                                                                                                                                       | PASSED |
-| 06 - Ball dissappears after shot   | TODO: Ball disappears after bouncing 3 times or going out of bounds                                                                                                                                                     | FAILED |
-| 07 - Ball collides with back board | /Assets/Test Cases/BallCollisionDetector.cs                                                                                                                                                                             | PASSED |
-| 08 - Ball bounces off back board   | /Assets/Test Cases/BounceCount.cs                                                                                                                                                                                       | PASSED |
-| 15 - Create Main Menu              | 1. Load game<br/>2. Main menu should appear                                                                                                                                                                             | PASSED |
-| 16 - Create Play functionality     | 1. Load game<br/>2. Press Play<br/>3. Game scene should load/appear                                                                                                                                                     | PASSED |
-| 18 - Create Exit functionality     | 1. Load game<br/>2. Press Play<br/>3. Press Exit in top left corner<br/>4. Main menu should appear                                                                                                                      | PASSED |
+<table>
+	<tr>
+		<td><b>ID</b></td>
+		<td><b>Unit Test</b></td>
+		<td><b>Status</b></td>
+		<td><b>User Story ID</b></td>
+	</tr>
+	<tr>
+		<td>2.1</td>
+		<td>Capture event when ball goes through the hoop</td>
+		<td>PASS</td>
+		<td>2</td>
+	</tr>
+	<tr>
+		<td>2.2</td>
+		<td>Increase score counter after ball goes through the hoop</td>
+		<td>PASS</td>
+		<td>2</td>
+	</tr>
+	<tr>
+		<td>2.3</td>
+		<td>Display counter in Score Board</td>
+		<td>PASS</td>
+		<td>2</td>
+	</tr>
+	<tr>
+		<td>3.1</td>
+		<td>Variable Game Dificulty based on user settings</td>
+		<td>PASS</td>
+		<td>3</td>
+	</tr>
+	<tr>
+		<td>3.2</td>
+		<td>Hoop moves left to right and right to left at a variable speed</td>
+		<td>PASS</td>
+		<td>3</td>
+	</tr>
+	<tr>
+		<td>6.1</td>
+		<td>Basketball disappears after bouncing 3 times</td>
+		<td>PASS</td>
+		<td>6</td>
+	</tr>
+	<tr>
+		<td>6.2</td>
+		<td>Basketball disappears after going out of bounds</td>
+		<td>PASS</td>
+		<td>6</td>
+	</tr>
+	<tr>
+		<td>9.1</td>
+		<td>Search and install from Apple AppStore</td>
+		<td>PASS</td>
+		<td>9</td>
+	</tr>
+	<tr>
+		<td>9.2</td>
+		<td>Search and install from Google Play</td>
+		<td>PASS</td>
+		<td>9</td>
+	</tr>
+	<tr>
+		<td>10.1</td>
+		<td>If a high score, prompt a screen with a textbox to input initials</td>
+		<td>PASS</td>
+		<td>10</td>
+	</tr>
+	<tr>
+		<td>10.2</td>
+		<td>Save high score with initials if top 5</td>
+		<td>PASS</td>
+		<td>10</td>
+	</tr>
+	<tr>
+		<td>10.3</td>
+		<td>Keep scores per device, even after app closes</td>
+		<td>PASS</td>
+		<td>10</td>
+	</tr>
+	<tr>
+		<td>11.1</td>
+		<td>Game time variable and configured from setting's menu</td>
+		<td>PASS</td>
+		<td>11</td>
+	</tr>
+	<tr>
+		<td>11.2</td>
+		<td>Time starts and decreases every second until zero</td>
+		<td>PASS</td>
+		<td>11</td>
+	</tr>
+	<tr>
+		<td>11.3</td>
+		<td>When time is zero, stop the game</td>
+		<td>PASS</td>
+		<td>11</td>
+	</tr>
+	<tr>
+		<td>17.1</td>
+		<td>High Scores button in main menu</td>
+		<td>PASS</td>
+		<td>17</td>
+	</tr>
+	<tr>
+		<td>17.2</td>
+		<td>Top 5 High Scores displayed in descending order</td>
+		<td>PASS</td>
+		<td>17</td>
+	</tr>
+</table>
