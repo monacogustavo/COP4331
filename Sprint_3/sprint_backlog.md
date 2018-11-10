@@ -1,18 +1,72 @@
 # Sprint Backlog
 
-| ID  | User Story / Requirement                                                                                                                         | Priority | Effort | Validation                                                                                 |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------- | ------ | ------------------------------------------------------------------------------------------ |
-| 00  | As a gamer, I want to swipe the basketball up on the screen, so that I can shoot                                                                 | 1        | 2      | When placing finger on basketball and moving, the basketball tracks finger movement        |
-| 01  | As a gamer, after I release the shot I want the basketball to move through the air towards the basket, so that I can make a shot                 | 1        | 8      | After releasing finger from basketball, the ball moves away from camera towards the target |
-| 05  | As a gamer, I want the ball to bounce off the floor, so that the game feels realistic                                                            | 2        | 3      | When the ball collides with the ground, the ball bounces                                   |
-| 06  | As a gamer, I want the basketball to disappear a short time after making or missing a shot, so that there are not basketballs all over the place | 2        | 2      | Basketballs disappear a few seconds after colliding with the ground                        |
-| 07  | As a gamer, I want the ball to collide with the backboard, so that I don't have to hit "nothing but net"                                         | 1        | 1      | When the ball hits the backboard, it doesn't travel through it                             |
-| 08  | As a gamer, I want the ball to bounce off the backboard, so that I can make shots off the backboard                                              | 1        | 2      | When the ball collides with the backboard, it bounces off of it                            |
-| 12  | Aquire 3D Hoop Model                                                                                                                             | 1        | 1      | A 3D model of a basketball backboard/hoop is in our project                                |
-| 15  | Create Main Menu                                                                                                                                 | 1        | 2      | App loads to main menu before starting game                                                |
-| 16  | Create "play" functionality to intiate game state from main menu                                                                                 | 1        | 2      | Game starts after clicking play button from main menu                                      |
-| 18  | Create "Exit" functionality to exit the game from the main menu                                                                                  | 3        | 2      | Game ends after clicking exit button from main menu                                        |
+<table>
+	<tr>
+		<td><b>ID</b></td>
+		<td><b>User Story / Requirement</b></td>
+		<td><b>Priority</b></td>
+		<td><b>Effort</b></td>
+		<td><b>Validation</b></td>
+		<td><b>Status</b></td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>As a gamer, I want to score points when I make a basket, so that I can feel a sense of accomplishment</td>
+		<td>2</td>
+		<td>1</td>
+		<td>When the ball goes in the basket, the score increments</td>
+		<td>DONE</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>As a gamer, I want the hoop to move at times, so there is an extra degree of difficulty</td>
+		<td>3</td>
+		<td>4</td>
+		<td>The hoop will move either after some amount of time in the game, or through a separate game mode</td>
+		<td>DONE</td>
+	</tr>
+	<tr>
+		<td>6</td>
+		<td>As a gamer, I want the basketball to disappear a short time after making or missing a shot, so that there are not basketballs all over the place</td>
+		<td>2</td>
+		<td>2</td>
+		<td>Basketballs disappear a few seconds after colliding with the ground</td>
+		<td>DONE</td>
+	</tr>
+	<tr>
+		<td>9</td>
+		<td>As a gamer, I want to download the game off the app store, so that I can easily install and play it</td>
+		<td>4</td>
+		<td>8</td>
+		<td>The game is available on the Apple app store and can be downloaded</td>
+		<td>DONE</td>
+	</tr>
+	<tr>
+		<td>10</td>
+		<td>As a gamer, I want the ability to track my high scores, so that I can compare against my friends</td>
+		<td>4</td>
+		<td>5</td>
+		<td>The game remembers the highest scores on the device</td>
+		<td>DONE</td>
+	</tr>
+	<tr>
+		<td>11</td>
+		<td>As a gamer, I want the game to be timed (30 seconds per game or so), so that I don't play forever</td>
+		<td>2</td>
+		<td>2</td>
+		<td>The game ends 30 seconds after the game begins, and they are sent back to main menu</td>
+		<td>DONE</td>
+	</tr>
+	<tr>
+		<td>17</td>
+		<td>Create high score functionality to display top 3 high scores</td>
+		<td>3</td>
+		<td>8</td>
+		<td>High scores are displayed after clicking high scores button from main menu</td>
+		<td>DONE</td>
+	</tr>
+</table>
 
 ## Burndown Chart
 
-![Burndown Chart](/Sprint_2/images/Burndown.png 'Burndown Chart')
+![Burndown Chart](/Sprint_3/images/Burndown.png 'Burndown Chart')

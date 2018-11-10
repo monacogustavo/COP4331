@@ -13,7 +13,7 @@
 	<tr>
 		<td> 1 </td>
 		<td> Open the Augmented Hoops mobile app</td>
-		<td> The application will open, showing the main meanu</td>
+		<td> The application will open, showing the main menu</td>
 		<td> PASS </td>
 	</tr>
 	<tr>
@@ -37,7 +37,7 @@
 	<tr>
 		<td> 5 </td>
 		<td> The ball goes through the hoop</td>
-		<td> If the ball goes through the hoop, we can visualy know it did. After the ball goes through the hoop, the score
+		<td> If the ball goes through the hoop, we can visually know it did. After the ball goes through the hoop, the score
 			board increases by one</td>
 		<td> PASS </td>
 	</tr>
@@ -54,7 +54,7 @@
 	<tr>
 		<td> 1 </td>
 		<td> Open the Augmented Hoops mobile app</td>
-		<td> The application will open, showing the main meanu</td>
+		<td> The application will open, showing the main menu</td>
 		<td> PASS </td>
 	</tr>
 	<tr>
@@ -69,7 +69,7 @@
 		<td> 3 </td>
 		<td> Adjust the "Game Difficulty" setting to the right
 		</td>
-		<td> The scrollbar will move and the setting will change from "Easy" to "Medium", and from "Medium" to "Hard"
+		<td> The scrollbar will move, and the setting will change from "Easy" to "Medium", and from "Medium" to "Hard"
 		</td>
 		<td> PASS </td>
 	</tr>
@@ -110,7 +110,7 @@
 	<tr>
 		<td> 1 </td>
 		<td> Open the Augmented Hoops mobile app</td>
-		<td> The application will open, showing the main meanu</td>
+		<td> The application will open, showing the main menu</td>
 		<td> PASS </td>
 	</tr>
 	<tr>
@@ -169,7 +169,7 @@
 		<td> 3 </td>
 		<td> Open the Augmented Hoops mobile app
 		</td>
-		<td> The application will open, showing the main meanu
+		<td> The application will open, showing the main menu
 		</td>
 		<td> PASS </td>
 	</tr>
@@ -194,7 +194,7 @@
 	<tr>
 		<td> 1 </td>
 		<td> Open the Augmented Hoops mobile app</td>
-		<td> The application will open, showing the main meanu</td>
+		<td> The application will open, showing the main menu</td>
 		<td> PASS </td>
 	</tr>
 	<tr>
@@ -218,7 +218,7 @@
 	<tr>
 		<td> 5 </td>
 		<td> The ball goes through the hoop</td>
-		<td> If the ball goes through the hoop, we can visualy know it did. After the ball goes through the hoop, the score
+		<td> If the ball goes through the hoop, we can visually know it did. After the ball goes through the hoop, the score
 			board increases by one</td>
 		<td> PASS </td>
 	</tr>
@@ -268,7 +268,7 @@
 		<td> 1 </td>
 		<td> Open the Augmented Hoops mobile app
 		</td>
-		<td> The application will open, showing the main meanu
+		<td> The application will open, showing the main menu
 		</td>
 		<td> PASS </td>
 	</tr>
@@ -310,7 +310,7 @@
 		<td> 1 </td>
 		<td> Open the Augmented Hoops mobile app
 		</td>
-		<td>The application will open, showing the main meanu
+		<td>The application will open, showing the main menu
 		</td>
 		<td> PASS </td>
 	</tr>
