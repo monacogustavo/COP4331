@@ -2,10 +2,10 @@
 
 ## Team Members
 
+- Tyler Webber
+- Andrew Morse
 - Justin Rudisal
 - Gus Monaco
-- Andrew Morse
-- Tyler Webber
 
 ## Vision Statement
 
@@ -31,4 +31,9 @@ The product's target market will consist of all Apple phones users who would lik
 
 # Sprint 3
 
-- Coming Soon
+- [Product Backlog](/Sprint_3/product_backlog.md)
+- [Sprint Backlog](/Sprint_3/sprint_backlog.md)
+- [Design Documents](/Sprint_3/design_docs.md)
+- [Source Code](/Sprint_3/source_code.md)
+- [Test Cases](/Sprint_3/test_cases.md)
+- [Product Demonstration](/Sprint_3/product_demonstration.md)
