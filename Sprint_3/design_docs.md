@@ -16,4 +16,8 @@
 
 ## App Usage Workflow
 
-![App Usage Diagram](/Sprint_1/images/Augmented_Hoops_UML.png 'App Usage Diagram')
+![App Usage Diagram](/Sprint_3/images/Final_UML.png 'App Usage Diagram')
+
+## User Documentation
+
+https://github.com/monacogustavo/COP4331/blob/master/Sprint_3/App_Operation.docx
